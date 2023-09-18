@@ -17,7 +17,6 @@
           </div>
           <input
             :class="{ 'input-error': error }"
-            type="email"
             name="email"
             placeholder="email@company.com"
             v-model="email"
